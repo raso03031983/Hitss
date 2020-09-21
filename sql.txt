@@ -1,0 +1,12 @@
+create database Hitss
+
+use Hitss
+
+create table device(
+    id int primary key identity,
+	model varchar(50) not null,
+	price decimal(10,2) not null,
+	brand varchar(50) not null,
+	photo text,
+	date varchar(10) not null
+)
